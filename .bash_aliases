@@ -1,0 +1,7 @@
+alias windows='cd /mnt/c/'
+alias rm='rm -i'
+alias cp='cp -i'
+alias mv='mv -i'
+alias valgrind='valgrind -s --leak-check=full --show-leak-kinds=all --track-origins=yes'
+alias gcc='gcc -g -Wall'
+alias lslh='(echo "Permissions Links Owner Group Size Date Time Name"; ls --color=auto -lF) | awk '\''{printf "%-12s %-7s %-8s %-8s %-8s %-10s %-5s %s\n", $1, $2, $3, $4, $5, $6, $7, $8 " " $9}'\'''
