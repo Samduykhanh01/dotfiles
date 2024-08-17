@@ -1,3 +1,5 @@
+#!/bin/sh
+
 # ~/.bashrc: executed by bash(1) for non-login shells.
 # see /usr/share/doc/bash/examples/startup-files (in the package bash-doc)
 # for examples
@@ -122,3 +124,8 @@ fi
 
 # A bunch of exports:
 export JAVA_HOME=/usr/lib/jvm/java-18-openjdk-amd64/
+export PATH="/home/sam/.local/bin:$PATH"
+
+export NVM_DIR="$HOME/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"                   # This loads nvm
+[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion" # This loads nvm bash_completion
