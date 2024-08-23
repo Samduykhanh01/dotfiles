@@ -1,6 +1,6 @@
 alias windows='cd /mnt/c/'
 alias rm='rm -i'
-alias cp='cp -i'
+# alias cp='cp -i'
 alias mv='mv -i'
 alias valgrind='valgrind -s --leak-check=full --show-leak-kinds=all --track-origins=yes'
 alias gcc='gcc -g -Wall'
